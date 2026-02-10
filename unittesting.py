@@ -72,3 +72,4 @@ def test_shrubs_spread():
     shrub = game.shrub_list[0]
     assert 0 <= shrub.center_x <= WINDOW_WIDTH
     assert 0 <= shrub.center_y <= WINDOW_HEIGHT
+
