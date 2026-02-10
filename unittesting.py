@@ -3,7 +3,7 @@ from demo import GameView, WINDOW_WIDTH, WINDOW_HEIGHT, GROUND_Y, NUM_TREES, APP
 
 # Test Case 1: Player collects a falling apple
 def test_collect_falling_apple():
-    game = GameView()
+    game = GameView()  
     game.setup()
     apple = game.apple_list[0]
     apple.remove_from_sprite_lists()
